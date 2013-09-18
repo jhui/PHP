@@ -12,6 +12,7 @@ Usage:   bargin filename item1 [item2 item3...]
 Example: php -f bargin.php sample_data.csv burger
 
 Testing scenaiors are listed in $project_directory/src/test/testing.txt
+
 All PHPUnit tests are under $project_directory/src/test
 
 
