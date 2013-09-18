@@ -16,8 +16,6 @@ Testing scenaiors are listed in $project_directory/src/test/testing.txt
 All PHPUnit tests are under $project_directory/src/test
 
 System tested:
-PHP 5.5.3
-PHPUnit 3.7.27
-Mac OS 10.8.4
+PHP 5.5.3, PHPUnit 3.7.27, Mac OS 10.8.4
 
 
