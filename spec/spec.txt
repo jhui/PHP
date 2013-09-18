@@ -1,0 +1,31 @@
+Objective: 
+Find the minimum price (and the corresponding restaurant) for a set of order food
+
+Data format:
+restaurant_id, price, item_label           
+restaurant_id, price, item_1_label, item_2_label, ...    
+(Second line indicate the price for a value meal)
+
+IDs are integers
+Item labels are lower case letters and underscores
+Price is a decimal number
+
+Rules:
+Find the minimum amount & restaurant to puchase a set of items
+Apply discount for value meal
+Okay to purchase extra items, as long as the total cost is minimized
+
+
+Sample:
+Data File data.csv:
+1, 4.00, burger
+1, 8.00, tofu_log
+2, 5.00, burger
+2, 6.50, tofu_log
+
+Command:
+pricing data.csv burger tofu_log
+
+Output:
+2, 11.5
+Or NULL if the order cannot be filed

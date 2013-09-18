@@ -1,0 +1,19 @@
+1, 4.00, burger
+1, 8.00, tofu_log
+2, 5.00, burger
+2, 6.50, tofu_log
+3, 4.00, chef_salad
+3, 8.00, steak_salad_sandwich
+4, 5.00, steak_salad_sandwich
+4, 2.50, wine_spritzer
+5, 4.00, extreme_fajita
+5, 4.00, jalapeno_poppers
+5, 5.00, fries
+5, 3.00, extra_salsa
+5, 8.00, fancy_european_water
+6, 5.00, fancy_european_water
+6, 6.00, extreme_fajita, jalapeno_poppers, extra_salsa
+6, 2.00, fries
+7, 16.00, noodle, salmon, ginger
+7, 8.00, salmon
+7, 10.00, noodle

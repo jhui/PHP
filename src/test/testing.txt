@@ -1,0 +1,40 @@
+Not taken from offer
+php -f bargin.php sample_data.csv burger
+php -f bargin.php sample_data.csv tofu_log
+
+Taken from offer
+php -f bargin.php sample_data.csv extreme_fajita jalapeno_poppers extra_salsa
+
+Cannot fill the order
+php -f bargin.php sample_data.csv extreme_fajita jalapeno_poppers extra_salsa tofu_log
+
+Take from offer even it order more items
+php -f bargin.php sample_data.csv jalapeno_poppers extra_salsa
+
+
+
+New testing file:
+
+Skip offer because individual price is cheaper (between 2 restaurants)
+php -f bargin.php testing_data.csv extreme_fajita
+
+Take the offer instead of individual item (between 2 restaurants)
+php -f bargin.php testing_data.csv jalapeno_poppers extra_salsa
+
+Order from offer and individual items
+php -f bargin.php testing_data.csv jalapeno_poppers extra_salsa fries
+
+Order from individual instead of offer within same restaurant
+php -f bargin.php testing_data.csv salmon
+
+Order from offer instead of individual within same restaurant
+php -f bargin.php testing_data.csv salmon noodle
+
+
+Handle failure:
+Wrong command 
+php -f bargin.php sample_data.csv1 jalapeno_poppers extra_salsa
+php -f bargin.php unknown.csv jalapeno_poppers extra_salsa
+
+Bad data:
+php -f bargin.php bad_data.csv jalapeno_poppers extra_salsa
