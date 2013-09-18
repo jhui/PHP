@@ -1,7 +1,7 @@
 PHP
 ===
 
-Git clone or download the project to a local directory ($project_director)
+Git clone or download the project to a local directory ($project_directory)
 
 Put the datafile into $project_directory/data/uploads
 - 3 sample .cvs files are already located in the directory above
