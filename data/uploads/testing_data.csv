@@ -12,8 +12,14 @@
 5, 3.00, extra_salsa
 5, 8.00, fancy_european_water
 6, 5.00, fancy_european_water
-6, 6.00, extreme_fajita, jalapeno_poppers, extra_salsa
 6, 2.00, fries
+6, 7.00, cheese
 7, 16.00, noodle, salmon, ginger
 7, 8.00, salmon
 7, 10.00, noodle
+8, 11.00, noodle
+8, 18.00, noodle, noodle
+9, 7.00, cheese
+6, 6.00, extreme_fajita, jalapeno_poppers, extra_salsa, cheese
+7, 6.00, hotdog
+7, 5.00, hotdog, fries

@@ -11,7 +11,10 @@ php -f bargin.php sample_data.csv extreme_fajita jalapeno_poppers extra_salsa to
 Take from offer even it order more items
 php -f bargin.php sample_data.csv jalapeno_poppers extra_salsa
 
-
+Item quantity > 1
+php -f bargin.php testing_data.csv burger burger
+php -f bargin.php testing_data.csv salmon salmon noodle
+php -f bargin.php testing_data.csv noodle noodle
 
 New testing file:
 
